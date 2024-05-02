@@ -9,7 +9,7 @@ header{
 
 .cristian-div{
     display: block;
-    padding-left: 5%;
+    padding-left: 3%;
     width: 50%;
 }
 
@@ -17,14 +17,14 @@ h1{
     margin: 0;
     align-items: center;
     text-align: center;
-    font-size: 50px;
+    font-size: 47px;
     width: 100%;
     padding: 15px;
 }
 
 .cristian-div :hover {
     background-color: rgb(0,19,34);
-    color: white;
+    color: aqua;
     padding: 20px;
     border-radius: 23px;
     transition-duration: .35s;
@@ -53,26 +53,52 @@ a:hover{
 }
 
 body {
-background-color:rgb(0, 56, 119);
+background-color:rgb(0, 27, 59);
 color: white;
 font-family: sans-serif;
-padding: 15px;
+padding-left: 30px;
+padding-right: 30px;
 }
 
 .sobremi{
     display: flex;
     background-color: rgb(0,19,34);
     border-radius: 20px;
-    justify-content: center;
+    padding: 30px;
 }
 
 .body-text{
-    background-color: rgb(0, 99, 99);
+    background-color: rgb(0, 27, 59);
     width: 60%;
     align-items: center;
     padding: 20px;
     font-size: 25px;
 }
+.sobremispan{
+    text-decoration: dotted;
+}
+h2{
+    color: aqua;
+}
+p{
+    color: white;
+    font-size: 20px
+}
+
+span{
+    text-decoration: underline;
+    font-size: 25px;
+}
 .body-img{
-padding: 20px;
+    width: 40%;
+    display: flex;
+    padding: 20px;
+    padding-left: 50px;
+    justify-content: center;
+}
+img{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
 }
